@@ -5,6 +5,7 @@ const Box = ({ id, width, height, backgroundColor, removeBox }) => {
     return (
         <div>
             <div
+                data-testid="box"
                 id={id}
                 style={{
                     width: `${width}px`,
